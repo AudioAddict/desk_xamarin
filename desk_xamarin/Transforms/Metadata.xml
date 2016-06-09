@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.desk.android.sdk']" name="managedName">Com.Desk.Android.Sdk</attr>
+  <attr path="/api/package[@name='com.desk.android.sdk.activity']" name="managedName">Com.Desk.Android.Sdk.Activity</attr>
+  <attr path="/api/package[@name='com.desk.android.sdk.adapter']" name="managedName">Com.Desk.Android.Sdk.Adapter</attr>
+  <attr path="/api/package[@name='com.desk.android.sdk.brand']" name="managedName">Com.Desk.Android.Sdk.Brand</attr>
+  <attr path="/api/package[@name='com.desk.android.sdk.config']" name="managedName">Com.Desk.Android.Sdk.Config</attr>
+  <attr path="/api/package[@name='com.desk.android.sdk.error']" name="managedName">Com.Desk.Android.Sdk.Error</attr>
+  <attr path="/api/package[@name='com.desk.android.sdk.fragment']" name="managedName">Com.Desk.Android.Sdk.Fragment</attr>
+  <attr path="/api/package[@name='com.desk.android.sdk.helper']" name="managedName">Com.Desk.Android.Sdk.Helper</attr>
+  <attr path="/api/package[@name='com.desk.android.sdk.identity']" name="managedName">Com.Desk.Android.Sdk.Identity</attr>
+  <attr path="/api/package[@name='com.desk.android.sdk.model']" name="managedName">Com.Desk.Android.Sdk.Model</attr>
+  <attr path="/api/package[@name='com.desk.android.sdk.provider']" name="managedName">Com.Desk.Android.Sdk.Provider</attr>
+  <attr path="/api/package[@name='com.desk.android.sdk.util']" name="managedName">Com.Desk.Android.Sdk.Uril</attr>
+  <attr path="/api/package[@name='com.desk.android.sdk.widget']" name="managedName">Com.Desk.Android.Sdk.Widget</attr>
+
+
+	<attr path="/api/package[@name='com.desk.android.sdk.provider']/interface[@name='ArticleProvider.IArticleCallbacks']" name="visibility">public</attr>
+</metadata>
